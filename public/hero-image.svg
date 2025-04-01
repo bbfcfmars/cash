@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Browser Window -->
+  <rect x="50" y="50" width="700" height="300" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Browser Header -->
+  <rect x="50" y="50" width="700" height="40" rx="8" fill="#F3F4F6"/>
+  
+  <!-- Browser Controls -->
+  <circle cx="70" cy="70" r="6" fill="#EF4444"/>
+  <circle cx="90" cy="70" r="6" fill="#F59E0B"/>
+  <circle cx="110" cy="70" r="6" fill="#10B981"/>
+  
+  <!-- URL Bar -->
+  <rect x="150" y="60" width="400" height="20" rx="4" fill="#E5E7EB"/>
+  <text x="160" y="75" font-family="Arial" font-size="12" fill="#6B7280">amazon.com</text>
+  
+  <!-- Honey Extension Popup -->
+  <rect x="600" y="60" width="120" height="30" rx="4" fill="#F97316"/>
+  <text x="620" y="80" font-family="Arial" font-size="12" fill="#FFFFFF">Honey</text>
+  
+  <!-- Product Card -->
+  <rect x="100" y="120" width="200" height="250" rx="8" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1"/>
+  
+  <!-- Product Image -->
+  <rect x="120" y="140" width="160" height="160" rx="4" fill="#F3F4F6"/>
+  
+  <!-- Product Info -->
+  <text x="120" y="320" font-family="Arial" font-size="16" font-weight="bold" fill="#111827">Wireless Headphones</text>
+  <text x="120" y="340" font-family="Arial" font-size="14" fill="#6B7280">$199.99</text>
+  
+  <!-- Honey Savings Badge -->
+  <rect x="120" y="360" width="160" height="30" rx="4" fill="#F97316"/>
+  <text x="140" y="380" font-family="Arial" font-size="12" fill="#FFFFFF">Save $20 with Honey</text>
+</svg> 
