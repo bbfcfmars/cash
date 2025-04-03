@@ -6,8 +6,8 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Honey - Save Money on Every Purchase",
-  description: "Join millions of shoppers who save money automatically when shopping online.",
+  title: "Click.Save.Shop. - Save Money on Every Purchase",
+  description: "Save money automatically while you shop online with Click.Save.Shop.",
 };
 
 export default function RootLayout({
@@ -22,22 +22,22 @@ export default function RootLayout({
         <nav className="bg-white shadow-sm fixed w-full z-50">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between h-16">
-              <Link href="/" className="text-2xl font-bold text-orange-500">
-                Honey
+              <Link href="/" className="text-2xl font-bold text-emerald-600">
+                Click.Save.Shop.
               </Link>
               <div className="hidden md:flex items-center space-x-8">
-                <Link href="/how-it-works" className="text-gray-600 hover:text-orange-500">
-                  How It Works
+                <Link href="/how-it-works" className="text-gray-600 hover:text-emerald-600">
+                  How it Works
                 </Link>
-                <Link href="/stores" className="text-gray-600 hover:text-orange-500">
+                <Link href="/stores" className="text-gray-600 hover:text-emerald-600">
                   Stores
                 </Link>
-                <Link href="/pricing" className="text-gray-600 hover:text-orange-500">
+                <Link href="/pricing" className="text-gray-600 hover:text-emerald-600">
                   Pricing
                 </Link>
                 <Link 
                   href="/signup" 
-                  className="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition-colors"
+                  className="bg-emerald-600 text-white px-4 py-2 rounded-full hover:bg-emerald-700 transition-colors"
                 >
                   Get Started
                 </Link>
@@ -56,7 +56,7 @@ export default function RootLayout({
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-xl font-bold mb-4">Honey</h3>
+                <h3 className="text-xl font-bold mb-4">Click.Save.Shop.</h3>
                 <p className="text-gray-400">
                   Save money on every purchase with automatic coupon application.
                 </p>
@@ -87,7 +87,7 @@ export default function RootLayout({
               </div>
             </div>
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; {new Date().getFullYear()} Honey. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Click.Save.Shop. All rights reserved.</p>
             </div>
           </div>
         </footer>

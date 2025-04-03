@@ -15,7 +15,7 @@ export default function StoresPage() {
             <input
               type="text"
               placeholder="Search for stores..."
-              className="w-full px-6 py-4 border border-gray-300 rounded-full focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+              className="w-full px-6 py-4 border border-gray-300 rounded-full focus:ring-2 focus:ring-emerald-600 focus:border-emerald-600"
             />
             <button className="absolute right-4 top-1/2 transform -translate-y-1/2">
               <svg className="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -48,8 +48,8 @@ export default function StoresPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {categories.map((category, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4">
-                  <svg className="w-6 h-6 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mb-4">
+                  <svg className="w-6 h-6 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     {category.icon}
                   </svg>
                 </div>
@@ -61,12 +61,12 @@ export default function StoresPage() {
         </div>
 
         {/* CTA Section */}
-        <div className="text-center bg-orange-50 rounded-2xl p-12">
+        <div className="text-center bg-emerald-50 rounded-2xl p-12">
           <h2 className="text-3xl font-bold mb-4">Ready to Start Saving?</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Join millions of shoppers who save money with Honey
+            Join millions of shoppers who save money with Click.Save.Shop.
           </p>
-          <button className="bg-orange-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600 transition-colors">
+          <button className="bg-emerald-600 text-white px-8 py-3 rounded-full font-semibold hover:bg-emerald-700 transition-colors">
             Get Started Free
           </button>
         </div>

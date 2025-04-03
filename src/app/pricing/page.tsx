@@ -14,11 +14,11 @@ export default function PricingPage() {
             <div
               key={index}
               className={`bg-white rounded-lg shadow-lg p-8 ${
-                plan.featured ? 'border-2 border-orange-500' : ''
+                plan.featured ? 'border-2 border-emerald-600' : ''
               }`}
             >
               {plan.featured && (
-                <div className="bg-orange-500 text-white text-sm font-semibold px-3 py-1 rounded-full inline-block mb-4">
+                <div className="bg-emerald-600 text-white text-sm font-semibold px-3 py-1 rounded-full inline-block mb-4">
                   Most Popular
                 </div>
               )}
@@ -50,7 +50,7 @@ export default function PricingPage() {
               <button
                 className={`w-full py-3 px-6 rounded-full font-semibold transition-colors ${
                   plan.featured
-                    ? 'bg-orange-500 text-white hover:bg-orange-600'
+                    ? 'bg-emerald-600 text-white hover:bg-emerald-700'
                     : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
                 }`}
               >
@@ -119,11 +119,11 @@ const pricingPlans = [
 
 const faqs = [
   {
-    question: 'How does Honey work?',
-    answer: 'Honey is a browser extension that automatically finds and applies the best coupons and deals when you shop online. Simply install the extension and shop as you normally would - we\'ll do the rest!'
+    question: 'How does Click.Save.Shop. work?',
+    answer: 'Click.Save.Shop. is a browser extension that automatically finds and applies the best coupons and deals when you shop online. Simply install the extension and shop as you normally would - we\'ll do the rest!'
   },
   {
-    question: 'Is Honey free to use?',
+    question: 'Is Click.Save.Shop. free to use?',
     answer: 'Yes! Our basic version is completely free to use. We also offer premium plans with additional features for those who want to save even more.'
   },
   {
