@@ -13,6 +13,8 @@ export default function Navbar() {
                 alt="Click.Save.Shop. Logo"
                 className="h-8 w-auto"
                 style={{ maxWidth: '120px' }}
+                loading="eager"
+                decoding="async"
               />
             </Link>
           </div>
