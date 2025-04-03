@@ -12,6 +12,7 @@ export default function Navbar() {
                 src="/css-logo-stacked.svg"
                 alt="Click.Save.Shop. Logo"
                 className="h-8 w-auto"
+                style={{ maxWidth: '120px' }}
               />
             </Link>
           </div>
