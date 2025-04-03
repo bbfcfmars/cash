@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
+// Navbar component with updated logo and styling
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-mute-turtle/20 z-50">
