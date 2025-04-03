@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 // Navbar component with updated logo and styling
 export default function Navbar() {
@@ -9,14 +8,10 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Image
+              <img
                 src="/css-logo-stacked.svg"
                 alt="Click.Save.Shop. Logo"
-                width={120}
-                height={40}
                 className="h-8 w-auto"
-                priority
-                unoptimized
               />
             </Link>
           </div>
