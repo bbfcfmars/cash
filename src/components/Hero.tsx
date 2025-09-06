@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <div className="relative isolate overflow-hidden bg-gradient-to-br from-mute-turtle/10 via-white to-pale-turtle/10 animate-gradient">
@@ -6,7 +8,7 @@ export default function Hero() {
           <div className="mt-24 sm:mt-32 lg:mt-16 animate-fade-in">
             <a href="#" className="inline-flex space-x-6">
               <span className="rounded-full bg-mute-turtle/10 px-3 py-1 text-sm font-semibold leading-6 text-mute-navy ring-1 ring-inset ring-mute-turtle/20">
-                What's new
+                What&apos;s new
               </span>
               <span className="inline-flex items-center space-x-2 text-sm font-medium text-navy">
                 <span>Just shipped v1.0</span>
@@ -36,7 +38,7 @@ export default function Hero() {
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-            <img
+            <Image
               src="/hero-image.svg"
               alt="App screenshot"
               width={2432}
